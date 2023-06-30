@@ -1,0 +1,31 @@
+.cover__overlay {
+  max-width: 100%;
+  aspect-ratio: 8/5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../../sprint-3-images/cover-trains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
+  position: relative;
+}
+
+.cover__overlay::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f;
+  opacity: .3;
+  display: block;
+  transition: ease-in-out 0.3s;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.cover__overlay:hover::before {
+  opacity: .8;
+}

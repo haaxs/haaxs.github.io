@@ -1,0 +1,29 @@
+.header {
+  margin: 16px auto 0;
+  max-width: calc(100% - 32px);
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  box-sizing: content-box;
+}
+
+@media (min-width: 321px) {
+  .header {
+    margin: 28px auto 0;
+    max-width: calc(100% - 48px);
+  }
+}
+
+@media (min-width: 769px) {
+  .header {
+    margin: 28px auto 0;
+    max-width: calc(100% - 96px);
+  }
+}
+
+@media (min-width: 1025px) {
+  .header {
+    margin: 28px auto 0px;
+    max-width: calc(100% - 96px);
+  }
+}

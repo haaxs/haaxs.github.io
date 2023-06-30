@@ -1,0 +1,18 @@
+.intro {
+  margin: 64px auto 0;
+  max-width: calc(100% - 32px);
+}
+
+@media (min-width: 321px) {
+  .intro {
+    margin: 88px auto 0;
+    max-width: calc(100% - 48px);
+  }
+}
+
+@media (min-width: 769px) {
+  .intro {
+    margin: 92px auto 0;
+    max-width: 984px;
+  }
+}
